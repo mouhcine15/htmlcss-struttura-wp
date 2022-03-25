@@ -2,23 +2,59 @@ body {
     width: 1000px;
     margin: auto;
 }
+
 header {
-    background-color: violet;
     height: 100px;
     margin: 20px;
+/* debug */
+    background-color: violet;
 }
+
 #primasezione {
-    background-color: bisque;
     height: 300px;
     margin: 20px;
+/* debug */
+    background-color: bisque;
 }
+
 #secondasezione {
-    background-color: blue;
-    height: 400px;
+    height: 500px;
     margin: 20px;
+/* debug */
+    background-color: blue;
 }
+
+.superiore {
+    height: 20%;
+    width: 100%;
+/* debug */
+    background-color: rgb(80, 196, 231);
+}
+
+.little-section {
+    float: left;
+    width: 23%;
+    margin: 1%;
+/* debug */
+    height: 75%;
+    background-color: rgb(80, 196, 231);
+}
+
+#centrale {
+    width: 50%;
+}
+
+#sinistra {
+    margin-left: 0;
+}
+
+#destra {
+    margin-right: 0;
+}
+
 footer {
+    margin: 20px;
+/* debug */
     background-color: rgb(131, 18, 236);
     height: 50px;
-    margin: 20px;
 }
