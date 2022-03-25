@@ -4,31 +4,36 @@ body {
 }
 
 header {
-    height: 100px;
     margin: 20px;
-/* debug */
+    /* debug */
     background-color: violet;
+    height: 100px;
 }
 
 #primasezione {
-    height: 300px;
     margin: 20px;
-/* debug */
+    /* debug */
     background-color: bisque;
+    height: 300px;
 }
 
 #secondasezione {
-    height: 500px;
     margin: 20px;
-/* debug */
+    /* debug */
     background-color: blue;
+    height: 500px;
 }
+header::after, #primasezione::after, #secondasezione::after, footer::after {
+    content: "";
+    display: table;
+    clear: both;
+   }
 
 .superiore {
-    height: 20%;
     width: 100%;
-/* debug */
+    /* debug */
     background-color: rgb(80, 196, 231);
+    height: 20%;
 }
 
 .little-section {
